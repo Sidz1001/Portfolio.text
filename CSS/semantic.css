@@ -1,0 +1,89 @@
+body{
+    margin: 0 auto;
+    background-image: url(/static/images/b669c86bec8f72c141f95d94ed7684c0.gif);
+}
+
+header{
+    background-color: orange;
+    background-image: url(/static/images/moneyheist.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1024px 141px;
+    padding-top: 1px;
+}
+
+header h1{
+    text-align: center;
+    color: red;
+}
+
+nav{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.navigation a{
+    text-decoration: none;
+    background-color: gray;
+    border-radius: 5px;
+    color: black;
+    padding: 2px;
+    font-weight: bold;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+.navigation ul li{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0px 15px;
+}
+
+.navigation a:hover{
+    transform: scale(1.2);
+    background-color: white;
+}
+
+main{
+    margin: auto;
+    width: 80%;
+}
+
+section{
+    margin: 10px;
+    transition: border, background-color 0.5s ease, box-shadow 0.9s ease;
+    font-weight: bold;
+    padding: 0px 5px;
+    font-family: fantasy;
+}
+
+section:hover{
+    border: solid;
+    background-color: gray;
+    box-shadow: 10px 10px 10px plum;
+}
+
+form{
+    padding: 0px 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+form button{
+    font-weight: bold;
+    margin-bottom: 15px;
+    width: 80px;
+    height: 20px;
+    transition: transform 0.5s ease;
+    border-radius: 5px;
+}
+
+form button:hover{
+    transform: scale(1.3);
+    border: solid;
+}
+
+footer{
+    background-color: bisque;
+    text-align: center;
+}
